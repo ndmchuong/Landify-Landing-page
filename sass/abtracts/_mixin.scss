@@ -1,0 +1,29 @@
+@import "./variables";
+@mixin title-section ($align, $left, $right) {
+    display: flex;
+    flex-direction: column;
+    align-items: $align;
+    .title-section__title {
+        position: relative;
+        width: max-content;
+    }
+    .title-section__title::before {
+        content: "";
+        position: absolute;
+        left: $left;
+        right: $right;
+        bottom: -20px;
+        width: 50%;
+        height: 2px;
+        background-color: $--orange;
+    }
+    .title-section__sub-title {
+        margin-top: 52px;
+    }
+}
+@mixin bg-img ($url) {
+    background-image: url($url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

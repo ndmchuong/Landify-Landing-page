@@ -1,0 +1,14 @@
+// import ABTRACTS
+@import "./abtracts/mixin";
+@import "./abtracts/variables";
+// import BASE 
+@import "./base/animation";
+@import "./base/config";
+@import "./base/reset";
+// import COMPONENTS 
+@import "./components/title-section";
+@import "./components/btn";
+@import "./components/card-destination";
+// import LAYOUT
+@import "./layout/hero-section";
+@import "./layout/destinations";

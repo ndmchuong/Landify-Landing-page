@@ -1,0 +1,29 @@
+.destination-item {
+    position: relative;
+    width: 500px;
+    aspect-ratio: 3/4;
+    background-image: url("../../img/popular-destinations/Monuments-Berlin.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 26px;
+    &__text {
+        width: calc(100% - 48px);
+        position: absolute;
+        bottom: 40px;
+        left: 24px;
+        padding: 5px 10px;
+        color: $--white;
+        background-color: $--gray-fade;
+        &--name {
+            margin-bottom: 17px;
+        }
+        &--location {
+            display: flex;
+            &--icon {
+                width: 24px;
+                margin-right: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.destination, .special-offer {
+    overflow: hidden;
+    &__main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 165px auto;
+        row-gap: 100px;
+        position: relative;
+    }
+    &__container-title {
+        min-height: 165px;
+        grid-column: 1/2;
+    }
+    .special-offer__container-title {
+        grid-column: 2/3;
+    }
+    &__btn-group-slider {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        &__btn-slide-left, &__btn-slide-right {
+            height: fit-content;
+        }
+    }
+    .special-offer__btn-group-slider {
+        grid-column: 1/2;
+        left: 0;
+    }
+    &__container-list {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        position: relative;
+        height: 667px;
+        &__list-destination, .list-destination {
+            display: flex;
+            gap: 0 32px;
+            position: absolute;
+        }
+    }
+}

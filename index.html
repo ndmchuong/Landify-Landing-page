@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landify</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/logo/favicon-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Travellian</title>
 </head>
 <body>
-    
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container-content hero__main">
+            <nav class="hero__navbar">
+                <a href="" class="hero__navbar__logo">
+                    <img src="./img/logo/Logo-travellian-white.svg" alt="logo travellian" class="hero__navbar__logo--img">
+                </a>
+                <ul class="hero__navbar__nav">
+                    <li class="hero__navbar__nav__item">
+                        <a href="" class="hero__navbar__nav__item--link">Home</a>
+                    </li>
+                    <li class="hero__navbar__nav__item">
+                        <a href="" class="hero__navbar__nav__item--link">Explore</a>
+                    </li>
+                    <li class="hero__navbar__nav__item">
+                        <a href="" class="hero__navbar__nav__item--link">Travel</a>
+                    </li>
+                    <li class="hero__navbar__nav__item">
+                        <a href="" class="hero__navbar__nav__item--link">Blog</a>
+                    </li>
+                    <li class="hero__navbar__nav__item">
+                        <a href="" class="hero__navbar__nav__item--link">Pricing</a>
+                    </li>
+                </ul>
+                <div class="hero__navbar__btns-acc">
+                    <button class="text-btn hero__navbar__btns-acc--login">Log in</button>
+                    <button class="text-btn hero__navbar__btns-acc--signup">Sign up</button>
+                </div>
+            </nav>
+            <div class="hero__container-title">
+                <h1 class="title-h1 hero__container-title__main-title">Start your unforgettable journey with us.</h1>
+                <span class="sub-title hero__container-title__sub-title">The best travel for your jouney begins now</span>
+            </div>
+        </div>
+    </section>
+    <section class="destination">
+        <div class="container-content destination__main">
+            <div class="title-section title-section-align-left destination__container-title">
+                <h2 class="title-h2 title-section__title destination__container-title__main-title">Popular Destinations</h2>
+                <span class="sub-title title-section__sub-title destination__container-title__sub-title">Most popular destinations around the world, from historical places to natural wonders.</span>
+            </div>
+            <div class="btn-group-slider destination__btn-group-slider">
+                <button class="btn-group-slider__btn-slide-left destination__btn-group-slider__btn-slide-left">
+                    <img class="btn-group-slider__btn-slide-left__img" src="./img/icon/Slide-left.svg" alt="">
+                </button>
+                <button class="btn-group-slider__btn-slide-right destination__btn-group-slider__btn-slide-right">
+                    <img class="btn-group-slider__btn-slide-right__img" src="./img/icon/Slide-right.svg" alt="">
+                </button>
+            </div>
+            <div class="destination__container-list">
+                <ul class="destination__container-list__list-destination list-destination">
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- SPECIAL OFFER -->
+    <section class="special-offer">
+        <div class="container-content special-offer__main">
+            <div class="title-section title-section-align-right special-offer__container-title">
+                <h2 class="title-h2 title-section__title special-offer__container-title__main-title">Special Offer</h2>
+                <span class="sub-title title-section__sub-title special-offer__container-title__sub-title">Check out our special offer and discounts</span>
+            </div>
+            <div class="btn-group-slider special-offer__btn-group-slider">
+                <button class="btn-group-slider__btn-slide-left special-offer__btn-group-slider__btn-slide-left">
+                    <img class="btn-group-slider__btn-slide-left__img" src="./img/icon/Slide-left.svg" alt="">
+                </button>
+                <button class="btn-group-slider__btn-slide-right special-offer__btn-group-slider__btn-slide-right">
+                    <img class="btn-group-slider__btn-slide-right__img" src="./img/icon/Slide-right.svg" alt="">
+                </button>
+            </div>
+            <div class="special-offer__container-list">
+                <ul class="special-offer__container-list__list-special-offer list-special-offer">
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="title-section title-section-align-left">
+        <h2 class="title-h2 title-section__title">abcddf</h2>
+        <span class="sub-title title-section__sub-title">jhsvdshgs</span>
+    </div>
+    <button class="text-btn">sign in</button>
+    <div class="btn-group-slider">
+        <button class="btn-group-slider__btn-slide-left">
+            <img class="btn-group-slider__btn-slide-left__img" src="./img/icon/Slide-left.svg" alt="">
+        </button>
+        <button class="btn-group-slider__btn-slide-right">
+            <img class="btn-group-slider__btn-slide-right__img" src="./img/icon/Slide-right.svg" alt="">
+        </button>
+    </div> -->
+    <!-- <article class="destination-item">
+        <div class="destination-item__text">
+            <h4 class="title-h4 destination-item__text--name">Monument of Berlin</h4>
+            <div class="destination-item__text--location">
+                <img class="destination-item__text--location--icon" src="./img/icon/location.svg" alt="">
+                <span class="sub-title destination-item__text--location--text">Berlin, Germany</span>
+            </div>
+        </div>
+    </article> -->
+    <script type="module" src="./js/queryDataPageHome.js"></script>
 </body>
 </html>

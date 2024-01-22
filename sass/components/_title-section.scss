@@ -1,0 +1,7 @@
+@import "../abtracts/mixin";
+.title-section-align-left {
+    @include title-section(start, 0, auto);
+}
+.title-section-align-right {
+    @include title-section(end, auto, 0);
+}

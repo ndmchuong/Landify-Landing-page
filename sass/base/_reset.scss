@@ -1,0 +1,45 @@
+@import "../abtracts/variables";
+// RESET CSS
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-family: $--ff-rubik;
+    font-weight: 400;
+    line-height: normal;
+    color: $--black-100;
+    background-color: $--white;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+ul, li {
+    list-style-type: none;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $--ff-playfair-display;
+}
+button {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+span {
+    display: inline-block;
+}

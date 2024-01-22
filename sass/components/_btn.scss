@@ -1,0 +1,17 @@
+// text button
+.text-btn {
+    font-size: 20px;
+    color: $--white;
+    padding: 20px 32px;
+    background-color: $--orange;
+    border-radius: 12px;
+}
+// slider button
+.btn-group-slider {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    .btn-group-slider__btn-slide-left {
+        margin-right: 40px;
+    }
+}
